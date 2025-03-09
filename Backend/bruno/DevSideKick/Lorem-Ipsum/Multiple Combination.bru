@@ -1,0 +1,20 @@
+meta {
+  name: Multiple Combination
+  type: http
+  seq: 5
+}
+
+get {
+  url: http://localhost:3000/lorem-ipsum-genrator?paragraphs=1&minSentencesPerParagraph=2&maxSentencesPerParagraph=5&minWordsPerSentence=5&maxWordsPerSentence=10&startWithLorem=true
+  body: none
+  auth: none
+}
+
+params:query {
+  paragraphs: 1
+  minSentencesPerParagraph: 2
+  maxSentencesPerParagraph: 5
+  minWordsPerSentence: 5
+  maxWordsPerSentence: 10
+  startWithLorem: true
+}

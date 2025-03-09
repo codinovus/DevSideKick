@@ -1,0 +1,15 @@
+meta {
+  name: Generate Number of Paragraphs
+  type: http
+  seq: 3
+}
+
+get {
+  url: http://localhost:3000/lorem-ipsum-genrator?paragraphs=2
+  body: none
+  auth: none
+}
+
+params:query {
+  paragraphs: 2
+}

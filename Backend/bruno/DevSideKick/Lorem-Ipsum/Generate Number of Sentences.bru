@@ -1,0 +1,15 @@
+meta {
+  name: Generate Number of Sentences
+  type: http
+  seq: 2
+}
+
+get {
+  url: GET http://localhost:3000/lorem-ipsum-genrator?sentences=3
+  body: none
+  auth: none
+}
+
+params:query {
+  sentences: 3
+}

@@ -1,0 +1,15 @@
+meta {
+  name: Generate Number of Words
+  type: http
+  seq: 1
+}
+
+get {
+  url: http://localhost:3000/lorem-ipsum-genrator?words=5
+  body: none
+  auth: none
+}
+
+params:query {
+  words: 5
+}
